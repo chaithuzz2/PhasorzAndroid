@@ -59,7 +59,7 @@ public class Main extends Activity {
 					Toast.makeText(getBaseContext(), 
 		                      "Verification Successful", 
 		                       Toast.LENGTH_SHORT).show();
-					//jump to another activity
+					startActivity(new Intent(Main.this,second.class));
 				}
 				else{
 					Toast.makeText(getBaseContext(), 
